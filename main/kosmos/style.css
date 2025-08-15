@@ -164,190 +164,20 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    body {
-        padding: 10px;
-        overflow-x: hidden;
-    }
-    
-    .container {
-        margin: 0;
-        border-radius: 10px;
-    }
-    
-    .practical-header {
-        padding: 20px 15px;
-    }
-    
     .practical-title {
-        font-size: 1.8em;
-        line-height: 1.2;
+        font-size: 2em;
     }
-    
     .practical-subtitle {
-        font-size: 1.1em;
-        line-height: 1.3;
+        font-size: 1.2em;
     }
-    
     .practical-info {
         flex-direction: column;
         gap: 10px;
     }
-    
-    .practical-content {
-        padding: 15px;
+    .practical-content, .practical-header {
+        padding: 20px;
     }
-    
-    section {
-        padding: 15px;
-        margin-bottom: 20px;
-    }
-    
-    .section-title {
-        font-size: 1.3em;
-        margin-bottom: 15px;
-    }
-    
-    /* Images responsive */
-    .task-image, img {
-        max-width: 100% !important;
-        height: auto !important;
-        display: block;
-        margin: 10px auto;
-        border-radius: 8px;
-    }
-    
-    figure {
-        margin: 15px 0;
-        text-align: center;
-    }
-    
-    /* Tables responsive */
-    .results-table {
-        overflow-x: auto;
-        margin: 15px 0;
-        border-radius: 8px;
-    }
-    
-    .results-table table {
-        min-width: 100%;
-        font-size: 0.8em;
-    }
-    
-    .results-table th,
-    .results-table td {
-        padding: 8px 4px;
-        white-space: nowrap;
-        font-size: 0.75em;
-    }
-    
-    .results-table th {
-        position: sticky;
-        top: 0;
-        background-color: rgba(255, 255, 255, 0.1);
-        z-index: 10;
-    }
-    
-    /* Task blocks */
-    .task-block {
-        margin-bottom: 20px;
-    }
-    
-    .task-title {
-        font-size: 1.1em;
-        margin-bottom: 10px;
-    }
-    
-    .task-list {
-        padding-left: 15px;
-    }
-    
-    .task-list li {
-        margin-bottom: 10px;
-        line-height: 1.4;
-    }
-    
-    /* Formula blocks */
-    .formula-block {
-        padding: 10px;
-        margin: 15px 0;
-    }
-    
-    .formula-text {
-        font-size: 0.9em;
-        padding: 8px;
-        word-break: break-word;
-    }
-    
-    /* Equipment grid */
-    .equipment-grid { 
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 10px;
-    }
-    
-    /* Text adjustments */
-    p {
-        font-size: 0.95em;
-        line-height: 1.5;
-        margin-bottom: 12px;
-    }
-    
-    ul, ol {
-        padding-left: 20px;
-    }
-    
-    li {
-        margin-bottom: 8px;
-    }
+    .equipment-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 }
 
-@media (max-width: 480px) {
-    body {
-        padding: 5px;
-    }
-    
-    .practical-header {
-        padding: 15px 10px;
-    }
-    
-    .practical-title {
-        font-size: 1.5em;
-    }
-    
-    .practical-subtitle {
-        font-size: 1em;
-    }
-    
-    .practical-content {
-        padding: 10px;
-    }
-    
-    section {
-        padding: 10px;
-        margin-bottom: 15px;
-    }
-    
-    .section-title {
-        font-size: 1.2em;
-    }
-    
-    /* Extra small tables */
-    .results-table th,
-    .results-table td {
-        padding: 6px 2px;
-        font-size: 0.7em;
-    }
-    
-    /* Smaller text */
-    p {
-        font-size: 0.9em;
-    }
-    
-    .task-title {
-        font-size: 1em;
-    }
-    
-    .formula-text {
-        font-size: 0.8em;
-    }
-}
 
